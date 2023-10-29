@@ -1,0 +1,48 @@
+[
+  {
+    "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-hub-001/providers/Microsoft.Resources/deployments/Microsoft.BastionHost-20230717202247/operations/23F1A76C4AAE6228",
+    "operationId": "23F1A76C4AAE6228",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2023-07-17T18:34:06.208574Z",
+      "duration": "PT11M16.3277013S",
+      "trackingId": "a54c6ef7-325f-4510-b350-5a08229eb34b",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-hub-001/providers/Microsoft.Network/bastionHosts/bas-az-uqc-001",
+        "resourceType": "Microsoft.Network/bastionHosts",
+        "resourceName": "bas-az-uqc-001"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-hub-001/providers/Microsoft.Resources/deployments/Microsoft.BastionHost-20230717202247/operations/5CD857A46B3C3876",
+    "operationId": "5CD857A46B3C3876",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2023-07-17T18:22:58.4676148Z",
+      "duration": "PT8.5867421S",
+      "trackingId": "4bb347b0-fb71-424a-8105-fafd2ebe3f17",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-hub-001/providers/Microsoft.Network/publicIpAddresses/pip-az-uqc-bas-001",
+        "resourceType": "Microsoft.Network/publicIpAddresses",
+        "resourceName": "pip-az-uqc-bas-001"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-hub-001/providers/Microsoft.Resources/deployments/Microsoft.BastionHost-20230717202247/operations/08585119887169178286",
+    "operationId": "08585119887169178286",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2023-07-17T18:34:06.3105066Z",
+      "duration": "PT11M16.4296339S",
+      "trackingId": "a77fba90-550d-4df9-8b8f-c49f7d7c605e",
+      "statusCode": "OK"
+    }
+  }
+]

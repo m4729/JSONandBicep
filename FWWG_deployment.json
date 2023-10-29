@@ -1,0 +1,339 @@
+{
+  "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Resources/deployments/watchguard-technologies.firebox-20230505135352",
+  "name": "watchguard-technologies.firebox-20230505135352",
+  "type": "Microsoft.Resources/deployments",
+  "properties": {
+    "templateLink": {
+      "uri": "https://catalogartifact.azureedge.net/publicartifacts/watchguard-technologies.firebox-19b35768-26fb-42a3-b20f-ec0739d5c075-wg_firebox_cloud/Artifacts/mainTemplate.json",
+      "contentVersion": "1.0.0.0"
+    },
+    "templateHash": "12346835531020790389",
+    "parameters": {
+      "location": {
+        "type": "String",
+        "value": "switzerlandnorth"
+      },
+      "fireboxVMName": {
+        "type": "String",
+        "value": "fwazuqcprod001"
+      },
+      "userName": {
+        "type": "String",
+        "value": "wgadmin"
+      },
+      "newOrExistingStorage": {
+        "type": "String",
+        "value": "new"
+      },
+      "storageAccountName": {
+        "type": "String",
+        "value": "stauqcfw001"
+      },
+      "storageResourceGroupName": {
+        "type": "String",
+        "value": "rg-az-uqc-fw-001"
+      },
+      "storageAccountType": {
+        "type": "String",
+        "value": "Standard_LRS"
+      },
+      "vmSize": {
+        "type": "String",
+        "value": "Standard_A2_v2"
+      },
+      "newOrExistingVnet": {
+        "type": "String",
+        "value": "existing"
+      },
+      "vnetName": {
+        "type": "String",
+        "value": "vnet-az-uqc-hub-001"
+      },
+      "vnetAddressPrefix": {
+        "type": "Array",
+        "value": [
+          "10.16.0.0/20"
+        ]
+      },
+      "vnetResourceGroupName": {
+        "type": "String",
+        "value": "rg-az-uqc-hub-001"
+      },
+      "subnet1Name": {
+        "type": "String",
+        "value": "snet-az-uqc-fwout-001"
+      },
+      "subnet1Prefix": {
+        "type": "String",
+        "value": "10.16.0.0/24"
+      },
+      "fireboxIPEth0": {
+        "type": "String",
+        "value": "10.16.0.4"
+      },
+      "subnet2Name": {
+        "type": "String",
+        "value": "snet-az-uqc-fwint-001"
+      },
+      "subnet2Prefix": {
+        "type": "String",
+        "value": "10.16.1.0/24"
+      },
+      "fireboxIPEth1": {
+        "type": "String",
+        "value": "10.16.1.4"
+      },
+      "networkSecurityGroup": {
+        "type": "String",
+        "value": "Management"
+      },
+      "newOrExistingPublicIP": {
+        "type": "String",
+        "value": "new"
+      },
+      "publicIPAddressName": {
+        "type": "String",
+        "value": "public-az-uqc-fw"
+      },
+      "publicAddressType": {
+        "type": "String",
+        "value": "Static"
+      },
+      "publicIPResourceGroupName": {
+        "type": "String",
+        "value": "rg-az-uqc-fw-001"
+      },
+      "publicIpSku": {
+        "type": "String",
+        "value": "Standard"
+      },
+      "dnsLabelPrefix": {
+        "type": "String",
+        "value": "fwazuqcprod001"
+      },
+      "sshKeyData": {
+        "type": "String",
+        "value": "---- BEGIN SSH2 PUBLIC KEY ----\nComment: \"rsa-key-20230505\"\nAAAAB3NzaC1yc2EAAAADAQABAAABAQCVBpCGbaJ696Iph4qLqMS5/RFQSIcZp2xX\nMih00di6otO6rNW5Ot3jeI/SgKwcjLTA3uh4pkz732ralXaAtmNtAdAyIuKhCvZW\n6seSi4NSMvgX3FKGW+3Amfl8Y6Sp7UVD82WuSy40fQHt5um72hfg0iGSmpp6cvUs\nBs4bQSKOxGxnS7mzGr9lEwZUqUbte8yDPZhSClsAVjzBX5cQNY+5DbDygi+a0TzW\ne5gpcTVeBYqOi6ArPf4XeziUiu31ZhgvuV3+2cTPKjhM9LzbHeGC4UR2dE9izvWh\nfWZu7ecK2a7r6LWCO0avoGT+xBXYZvgYIyT+NaLjlQg+A78lntDv\n---- END SSH2 PUBLIC KEY ----\n"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2023-05-05T13:08:41.5182986Z",
+    "duration": "PT2M20.6474968S",
+    "correlationId": "e69c25a4-a9ec-4630-ab37-a5ab82985653",
+    "providers": [
+      {
+        "namespace": "Microsoft.Resources",
+        "resourceTypes": [
+          {
+            "resourceType": "deployments",
+            "locations": [
+              null
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.Compute",
+        "resourceTypes": [
+          {
+            "resourceType": "availabilitySets",
+            "locations": [
+              "switzerlandnorth"
+            ]
+          },
+          {
+            "resourceType": "virtualMachines",
+            "locations": [
+              "switzerlandnorth"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.Storage",
+        "resourceTypes": [
+          {
+            "resourceType": "storageAccounts",
+            "locations": [
+              "switzerlandnorth"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.Network",
+        "resourceTypes": [
+          {
+            "resourceType": "routeTables",
+            "locations": [
+              "switzerlandnorth"
+            ]
+          },
+          {
+            "resourceType": "networkSecurityGroups",
+            "locations": [
+              "switzerlandnorth"
+            ]
+          },
+          {
+            "resourceType": "publicIPAddresses",
+            "locations": [
+              "switzerlandnorth"
+            ]
+          },
+          {
+            "resourceType": "networkInterfaces",
+            "locations": [
+              "switzerlandnorth"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Network/routeTables/fwazuqcprod001-snet-az-uqc-fwout-001-routes",
+            "resourceType": "Microsoft.Network/routeTables",
+            "resourceName": "fwazuqcprod001-snet-az-uqc-fwout-001-routes"
+          },
+          {
+            "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Network/routeTables/fwazuqcprod001-snet-az-uqc-fwint-001-routes",
+            "resourceType": "Microsoft.Network/routeTables",
+            "resourceName": "fwazuqcprod001-snet-az-uqc-fwint-001-routes"
+          }
+        ],
+        "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Network/virtualNetworks/vnet-az-uqc-hub-001",
+        "resourceType": "Microsoft.Network/virtualNetworks",
+        "resourceName": "vnet-az-uqc-hub-001"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Network/publicIPAddresses/public-az-uqc-fw",
+            "resourceType": "Microsoft.Network/publicIPAddresses",
+            "resourceName": "public-az-uqc-fw"
+          },
+          {
+            "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Network/virtualNetworks/vnet-az-uqc-hub-001",
+            "resourceType": "Microsoft.Network/virtualNetworks",
+            "resourceName": "vnet-az-uqc-hub-001"
+          },
+          {
+            "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Network/networkSecurityGroups/NSG-fwazuqcprod001Eth0Management",
+            "resourceType": "Microsoft.Network/networkSecurityGroups",
+            "resourceName": "NSG-fwazuqcprod001Eth0Management"
+          }
+        ],
+        "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Network/networkInterfaces/fwazuqcprod001Eth0-NSG",
+        "resourceType": "Microsoft.Network/networkInterfaces",
+        "resourceName": "fwazuqcprod001Eth0-NSG"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Network/publicIPAddresses/public-az-uqc-fw",
+            "resourceType": "Microsoft.Network/publicIPAddresses",
+            "resourceName": "public-az-uqc-fw"
+          },
+          {
+            "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Network/virtualNetworks/vnet-az-uqc-hub-001",
+            "resourceType": "Microsoft.Network/virtualNetworks",
+            "resourceName": "vnet-az-uqc-hub-001"
+          }
+        ],
+        "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Network/networkInterfaces/fwazuqcprod001Eth0",
+        "resourceType": "Microsoft.Network/networkInterfaces",
+        "resourceName": "fwazuqcprod001Eth0"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Network/publicIPAddresses/public-az-uqc-fw",
+            "resourceType": "Microsoft.Network/publicIPAddresses",
+            "resourceName": "public-az-uqc-fw"
+          },
+          {
+            "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Network/virtualNetworks/vnet-az-uqc-hub-001",
+            "resourceType": "Microsoft.Network/virtualNetworks",
+            "resourceName": "vnet-az-uqc-hub-001"
+          }
+        ],
+        "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Network/networkInterfaces/fwazuqcprod001Eth1",
+        "resourceType": "Microsoft.Network/networkInterfaces",
+        "resourceName": "fwazuqcprod001Eth1"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Network/networkInterfaces/fwazuqcprod001Eth0",
+            "resourceType": "Microsoft.Network/networkInterfaces",
+            "resourceName": "fwazuqcprod001Eth0"
+          },
+          {
+            "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Network/networkInterfaces/fwazuqcprod001Eth1",
+            "resourceType": "Microsoft.Network/networkInterfaces",
+            "resourceName": "fwazuqcprod001Eth1"
+          },
+          {
+            "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Storage/storageAccounts/stauqcfw001",
+            "resourceType": "Microsoft.Storage/storageAccounts",
+            "resourceName": "stauqcfw001"
+          },
+          {
+            "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Compute/availabilitySets/fwazuqcprod001-AvailabilitySet-yya6y45rexf2o",
+            "resourceType": "Microsoft.Compute/availabilitySets",
+            "resourceName": "fwazuqcprod001-AvailabilitySet-yya6y45rexf2o"
+          },
+          {
+            "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Storage/storageAccounts/stauqcfw001",
+            "resourceType": "Microsoft.Storage/storageAccounts",
+            "resourceName": "stauqcfw001",
+            "apiVersion": "2021-09-01"
+          }
+        ],
+        "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Compute/virtualMachines/fwazuqcprod001",
+        "resourceType": "Microsoft.Compute/virtualMachines",
+        "resourceName": "fwazuqcprod001"
+      }
+    ],
+    "outputResources": [
+      {
+        "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Compute/availabilitySets/fwazuqcprod001-AvailabilitySet-yya6y45rexf2o"
+      },
+      {
+        "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Compute/virtualMachines/fwazuqcprod001"
+      },
+      {
+        "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Network/networkInterfaces/fwazuqcprod001Eth0-NSG"
+      },
+      {
+        "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Network/networkInterfaces/fwazuqcprod001Eth1"
+      },
+      {
+        "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Network/networkSecurityGroups/NSG-fwazuqcprod001Eth0Management"
+      },
+      {
+        "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Network/publicIPAddresses/public-az-uqc-fw"
+      },
+      {
+        "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Network/routeTables/fwazuqcprod001-snet-az-uqc-fwint-001-routes"
+      },
+      {
+        "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Network/routeTables/fwazuqcprod001-snet-az-uqc-fwout-001-routes"
+      },
+      {
+        "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Storage/storageAccounts/stauqcfw001"
+      }
+    ],
+    "validationLevel": "Template"
+  },
+  "tags": {
+    "marketplaceItemId": "watchguard-technologies.fireboxwg_firebox_cloud"
+  }
+}

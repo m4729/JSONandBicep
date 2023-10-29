@@ -1,0 +1,202 @@
+[
+  {
+    "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Resources/deployments/watchguard-technologies.firebox-20230505135352/operations/B64705D9562AF80B",
+    "operationId": "B64705D9562AF80B",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2023-05-05T13:08:41.1102296Z",
+      "duration": "PT1M54.5199673S",
+      "trackingId": "2ab572c3-3571-4158-a2fb-9ec7655641cc",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Compute/virtualMachines/fwazuqcprod001",
+        "resourceType": "Microsoft.Compute/virtualMachines",
+        "resourceName": "fwazuqcprod001"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Resources/deployments/watchguard-technologies.firebox-20230505135352/operations/4359B357D289A334",
+    "operationId": "4359B357D289A334",
+    "properties": {
+      "provisioningOperation": "Read",
+      "provisioningState": "Succeeded",
+      "timestamp": "2023-05-05T13:06:46.556441Z",
+      "duration": "PT22.873753S",
+      "trackingId": "c5c5110d-c439-422c-a610-426a3185658c",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Storage/storageAccounts/stauqcfw001",
+        "resourceType": "Microsoft.Storage/storageAccounts",
+        "resourceName": "stauqcfw001",
+        "apiVersion": "2021-09-01"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Resources/deployments/watchguard-technologies.firebox-20230505135352/operations/4658DEC7D9C65889",
+    "operationId": "4658DEC7D9C65889",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2023-05-05T13:06:35.4292753Z",
+      "duration": "PT11.7465873S",
+      "trackingId": "192f2654-4aad-449b-8ffb-3d1da62739fd",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Compute/availabilitySets/fwazuqcprod001-AvailabilitySet-yya6y45rexf2o",
+        "resourceType": "Microsoft.Compute/availabilitySets",
+        "resourceName": "fwazuqcprod001-AvailabilitySet-yya6y45rexf2o"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Resources/deployments/watchguard-technologies.firebox-20230505135352/operations/C006AAD56505CD3C",
+    "operationId": "C006AAD56505CD3C",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2023-05-05T13:06:32.1808362Z",
+      "duration": "PT1.6060962S",
+      "trackingId": "31ac672f-c71c-4e3a-8fc4-35a160463fd5",
+      "statusCode": "Created",
+      "targetResource": {
+        "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Network/networkInterfaces/fwazuqcprod001Eth0-NSG",
+        "resourceType": "Microsoft.Network/networkInterfaces",
+        "resourceName": "fwazuqcprod001Eth0-NSG"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Resources/deployments/watchguard-technologies.firebox-20230505135352/operations/269A43D4BD3A42ED",
+    "operationId": "269A43D4BD3A42ED",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2023-05-05T13:06:32.116277Z",
+      "duration": "PT1.541537S",
+      "trackingId": "33dc270c-2a8f-4f0f-b803-e2668ea02a48",
+      "statusCode": "Created",
+      "targetResource": {
+        "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Network/networkInterfaces/fwazuqcprod001Eth1",
+        "resourceType": "Microsoft.Network/networkInterfaces",
+        "resourceName": "fwazuqcprod001Eth1"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Resources/deployments/watchguard-technologies.firebox-20230505135352/operations/69D229A45186F126",
+    "operationId": "69D229A45186F126",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2023-05-05T13:06:46.4568741Z",
+      "duration": "PT22.7741861S",
+      "trackingId": "e3621696-9943-4c46-96b8-022a7cc0b88d",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Storage/storageAccounts/stauqcfw001",
+        "resourceType": "Microsoft.Storage/storageAccounts",
+        "resourceName": "stauqcfw001"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Resources/deployments/watchguard-technologies.firebox-20230505135352/operations/6F9638E4DAD27120",
+    "operationId": "6F9638E4DAD27120",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2023-05-05T13:06:30.5331253Z",
+      "duration": "PT6.8504373S",
+      "trackingId": "8ca7b913-5b78-4c4d-bd7c-729070fe3f86",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Network/publicIPAddresses/public-az-uqc-fw",
+        "resourceType": "Microsoft.Network/publicIPAddresses",
+        "resourceName": "public-az-uqc-fw"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Resources/deployments/watchguard-technologies.firebox-20230505135352/operations/F5773A574D4C19B2",
+    "operationId": "F5773A574D4C19B2",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2023-05-05T13:06:27.2678666Z",
+      "duration": "PT3.5851786S",
+      "trackingId": "983c2390-168e-4670-a8bc-be2fdf9d58d5",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Network/routeTables/fwazuqcprod001-snet-az-uqc-fwint-001-routes",
+        "resourceType": "Microsoft.Network/routeTables",
+        "resourceName": "fwazuqcprod001-snet-az-uqc-fwint-001-routes"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Resources/deployments/watchguard-technologies.firebox-20230505135352/operations/D10E96B5D1E7CF17",
+    "operationId": "D10E96B5D1E7CF17",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2023-05-05T13:06:27.7688946Z",
+      "duration": "PT4.0862066S",
+      "trackingId": "20a72c1f-6673-4552-ae73-070fe45d3e34",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Network/routeTables/fwazuqcprod001-snet-az-uqc-fwout-001-routes",
+        "resourceType": "Microsoft.Network/routeTables",
+        "resourceName": "fwazuqcprod001-snet-az-uqc-fwout-001-routes"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Resources/deployments/watchguard-technologies.firebox-20230505135352/operations/6686AD4C535046B5",
+    "operationId": "6686AD4C535046B5",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2023-05-05T13:06:28.6433755Z",
+      "duration": "PT4.9606875S",
+      "trackingId": "2b57d4c8-e2af-4026-8728-21f432be0108",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Network/networkSecurityGroups/NSG-fwazuqcprod001Eth0Management",
+        "resourceType": "Microsoft.Network/networkSecurityGroups",
+        "resourceName": "NSG-fwazuqcprod001Eth0Management"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Resources/deployments/watchguard-technologies.firebox-20230505135352/operations/56391A8D41DA222E",
+    "operationId": "56391A8D41DA222E",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2023-05-05T13:06:40.6989118Z",
+      "duration": "PT17.0162238S",
+      "trackingId": "3c934c4f-94d4-4838-b751-179be2df30ce",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Resources/deployments/pid-0f43a02e-25a5-4318-a57f-b70334187807-partnercenter",
+        "resourceType": "Microsoft.Resources/deployments",
+        "resourceName": "pid-0f43a02e-25a5-4318-a57f-b70334187807-partnercenter"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-fw-001/providers/Microsoft.Resources/deployments/watchguard-technologies.firebox-20230505135352/operations/08585183149050783231",
+    "operationId": "08585183149050783231",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2023-05-05T13:08:41.4882395Z",
+      "duration": "PT0.3135763S",
+      "trackingId": "711b7824-3e8a-4087-bb6c-48d81a83a12f",
+      "statusCode": "OK"
+    }
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "properties": {
+    "displayName": "Require Tag Environment Value Prod or Test on any rescource",
+    "policyType": "Custom",
+    "mode": "Indexed",
+    "metadata": {
+      "createdBy": "48369532-c69d-4bd4-8d47-249737929772",
+      "createdOn": "2023-05-05T12:45:16.1010212Z",
+      "updatedBy": "48369532-c69d-4bd4-8d47-249737929772",
+      "updatedOn": "2023-05-05T14:14:13.0666213Z"
+    },
+    "parameters": {
+      "allowedValues": {
+        "type": "Array",
+        "metadata": {
+          "displayName": "allowedValues",
+          "description": "The allowed values for the 'Environment' tag."
+        },
+        "allowedValues": [
+          "Test",
+          "Prod"
+        ],
+        "defaultValue": [
+          "Test",
+          "Prod"
+        ]
+      }
+    },
+    "policyRule": {
+      "if": {
+        "not": {
+          "allOf": [
+            {
+              "field": "tags['Environment']",
+              "in": "[parameters('allowedValues')]"
+            }
+          ]
+        }
+      },
+      "then": {
+        "effect": "deny"
+      }
+    }
+  },
+  "id": "/providers/Microsoft.Management/managementGroups/mg-az-uqc-it/providers/Microsoft.Authorization/policyDefinitions/614884a5-50ae-4990-a317-474adad1076c",
+  "type": "Microsoft.Authorization/policyDefinitions",
+  "name": "614884a5-50ae-4990-a317-474adad1076c",
+  "systemData": {
+    "createdBy": "cadm_mfl@uniqconsulting.ch",
+    "createdByType": "User",
+    "createdAt": "2023-05-05T12:45:16.0104112Z",
+    "lastModifiedBy": "cadm_mfl@uniqconsulting.ch",
+    "lastModifiedByType": "User",
+    "lastModifiedAt": "2023-05-05T14:14:12.9951553Z"
+  }
+}

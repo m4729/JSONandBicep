@@ -1,0 +1,112 @@
+{
+  "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-hub-001/providers/Microsoft.Resources/deployments/Microsoft.BastionHost-20230717202247",
+  "name": "Microsoft.BastionHost-20230717202247",
+  "type": "Microsoft.Resources/deployments",
+  "properties": {
+    "templateHash": "13418448231822042334",
+    "parameters": {
+      "location": {
+        "type": "String",
+        "value": "switzerlandnorth"
+      },
+      "resourceGroup": {
+        "type": "String",
+        "value": "rg-az-uqc-hub-001"
+      },
+      "bastionHostName": {
+        "type": "String",
+        "value": "bas-az-uqc-001"
+      },
+      "subnetId": {
+        "type": "String",
+        "value": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-hub-001/providers/Microsoft.Network/virtualNetworks/vnet-az-uqc-hub-001/subnets/AzureBastionSubnet"
+      },
+      "bastionHostSku": {
+        "type": "String",
+        "value": "Basic"
+      },
+      "bastionHostScaleUnits": {
+        "type": "Int",
+        "value": 2
+      },
+      "enableIpConnect": {
+        "type": "Bool",
+        "value": false
+      },
+      "enableTunneling": {
+        "type": "Bool",
+        "value": false
+      },
+      "enableShareableLink": {
+        "type": "Bool",
+        "value": false
+      },
+      "enableKerberos": {
+        "type": "Bool",
+        "value": true
+      },
+      "disableCopyPaste": {
+        "type": "Bool",
+        "value": false
+      },
+      "publicIpAddressName": {
+        "type": "String",
+        "value": "pip-az-uqc-bas-001"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2023-07-17T18:34:06.330109Z",
+    "duration": "PT11M17.3865897S",
+    "correlationId": "fc18b925-3bf2-4cb6-9eee-d87e0f042e5a",
+    "providers": [
+      {
+        "namespace": "Microsoft.Network",
+        "resourceTypes": [
+          {
+            "resourceType": "publicIpAddresses",
+            "locations": [
+              "switzerlandnorth"
+            ]
+          },
+          {
+            "resourceType": "bastionHosts",
+            "locations": [
+              "switzerlandnorth"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-hub-001/providers/Microsoft.Network/publicIpAddresses/pip-az-uqc-bas-001",
+            "resourceType": "Microsoft.Network/publicIpAddresses",
+            "resourceName": "pip-az-uqc-bas-001"
+          }
+        ],
+        "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-hub-001/providers/Microsoft.Network/bastionHosts/bas-az-uqc-001",
+        "resourceType": "Microsoft.Network/bastionHosts",
+        "resourceName": "bas-az-uqc-001"
+      }
+    ],
+    "outputResources": [
+      {
+        "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-hub-001/providers/Microsoft.Network/bastionHosts/bas-az-uqc-001"
+      },
+      {
+        "id": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourceGroups/rg-az-uqc-hub-001/providers/Microsoft.Network/publicIpAddresses/pip-az-uqc-bas-001"
+      }
+    ],
+    "validationLevel": "Template"
+  },
+  "tags": {
+    "primaryResourceId": "/subscriptions/b9e7aa18-6bb7-4cf8-bcdf-36ef2d4e2dc6/resourcegroups/rg-az-uqc-hub-001/providers/Microsoft.Network/bastionHosts/bas-az-uqc-001",
+    "marketplaceItemId": "Microsoft.BastionHost-Arm"
+  }
+}
